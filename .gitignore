@@ -1,0 +1,14 @@
+# Ignorer les images lourdes
+images/original/
+node_modules/
+.DS_Store
+
+# Ignorer les formats non optimisés
+*.png
+*.jpg
+*.jpeg
+*.ttf
+
+# Garder les formats optimisés
+!*.webp
+!*.svg

@@ -1,0 +1,18 @@
+{
+  "name": "88studio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "optimize": "node optimize-images.js",
+    "optimize:svg": "svgo -f images/svg"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sharp": "^0.33.5",
+    "svgo": "^3.3.2"
+  }
+}
